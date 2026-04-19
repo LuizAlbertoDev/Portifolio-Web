@@ -1,36 +1,28 @@
-function updateProfileInfo(profileData) { 
+function updateProfileInfo(profileData) {
 
-    const photo = document.getElementById('profile.photo');
-    photo.src = profileData.photo;
-    photo.alt = profileData.name;
+    document.getElementById('profile.name').innerText =
+        profileData.name;
 
-    const name = document.getElementById('profile.name');
-    name.innerText = profileData.name;
+    document.getElementById('profile.job').innerText =
+        profileData.job;
 
-    const job = document.getElementById('profile.job');
-    job.innerText = profileData.job;
+    document.getElementById('profile.location').innerText =
+        profileData.location;
 
-    const location = document.getElementById('profile.location');
-    location.innerText = profileData.location;
+    document.getElementById('profile.phone').innerText =
+        profileData.phone;
 
-    const phone = document.getElementById('profile.phone');
-    const phoneLink = document.getElementById('profile.phone.link');
+    document.getElementById('profile.email').innerText =
+        profileData.email;
 
-    phone.innerText = profileData.phone;
-    phoneLink.href = `tel:${profileData.phone.replace(/\D/g, '')}`;
-
-    const email = document.getElementById('profile.email');
-    const emailLink = document.getElementById('profile.email.link');
-
-    email.innerText = profileData.email;
-    emailLink.href = `mailto:${profileData.email}`;
+    document.getElementById('profile.photo').src =
+        profileData.photo;
 
 }
 
 (async () => {
 
     const profileData = await fetchProfileData();
-    console.log(profileData);
 
     updateProfileInfo(profileData);
 

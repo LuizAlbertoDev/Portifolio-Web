@@ -1,18 +1,22 @@
 async function fetchProfileData() {
-    const url = 'https://raw.githubusercontent.com/LuizAlbertoDev/Portifolio-Web/refs/heads/main/data/profile.json';
+
+    const url =
+    'https://raw.githubusercontent.com/LuizAlbertoDev/Portifolio-Web/main/data/profile.json';
 
     try {
+
         const response = await fetch(url);
-        const data = await response.json();
 
-        console.log(data);
+        if (!response.ok) {
+            throw new Error('Erro ao carregar JSON');
+        }
 
-        // Exemplo: mostrar nome
-        document.getElementById('profileName').innerText = data.name;
+        return await response.json();
 
     } catch (error) {
-        console.error('Erro ao buscar dados:', error);
-    }
-}
 
-fetchProfileData();
+        console.error('Erro ao buscar dados:', error);
+
+    }
+
+}
