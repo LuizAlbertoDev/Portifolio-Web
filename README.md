@@ -21,14 +21,16 @@ O projeto foi criado como parte dos meus estudos em desenvolvimento web e contin
 ![HTML](https://img.shields.io/badge/HTML5-orange)
 ![CSS](https://img.shields.io/badge/CSS3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![DOM](https://img.shields.io/badge/DOM-manipulation-9cf)
 ![Git](https://img.shields.io/badge/Git-red)
 ![GitHub](https://img.shields.io/badge/GitHub-black)
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
+- HTML5
+- CSS3
+- JavaScript
+- DOM
+- Git
+- GitHub
 
 ---
 
