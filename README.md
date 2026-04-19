@@ -1,21 +1,34 @@
 # 💼 Portfólio Web - Desenvolvedor Front-end Júnior
 
 🌐 **Acesse o projeto:**
-https://SEU-LINK-AQUI
+https://github.com/LuizAlbertoDev/Portifolio-Web/settings/pages
+
+🔗 **Repositório:**
+https://github.com/LuizAlbertoDev/Portifolio-Web
 
 ---
 
-Este é o meu projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades em desenvolvimento front-end e meus projetos.
+## 📌 Sobre o projeto
 
+Este é o meu projeto de **portfólio pessoal**, desenvolvido com o objetivo de apresentar minhas habilidades em desenvolvimento **Front-end**, meus projetos e minha evolução na área de programação.
+
+O projeto foi criado como parte dos meus estudos em desenvolvimento web e continua sendo atualizado conforme aprendo novas tecnologias.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
+![HTML](https://img.shields.io/badge/HTML5-orange)
+![CSS](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![Git](https://img.shields.io/badge/Git-red)
+![GitHub](https://img.shields.io/badge/GitHub-black)
+
 * HTML5
 * CSS3
 * JavaScript
-* Git e GitHub
+* Git
+* GitHub
 
 ---
 
@@ -36,24 +49,65 @@ Este é o meu projeto de portfólio pessoal desenvolvido para apresentar minhas 
 
 ---
 
+## ▶️ Como executar o projeto
+
+1. Clone o repositório:
+
+git clone https://github.com/LuizAlbertoDev/Portifolio-Web
+
+2. Acesse a pasta do projeto:
+
+cd Portifolio-Web
+
+3. Abra o arquivo:
+
+index.html
+
+---
+
 ## 🧠 O que eu aprendi com este projeto
 
 * Estruturação de páginas com HTML
 * Estilização com CSS
 * Manipulação de dados com JavaScript
-* Consumo de API / JSON
+* Consumo de dados via JSON
 * Organização de código
-* Versionamento com Git
+* Versionamento com Git e GitHub
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+Portifolio-Web/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── main.js
+│   │
+│   └── img/
+│       └── preview.png
+│
+├── data/
+│   └── profile.json
+│
+├── index.html
+│
+└── README.md
+```
 
 ---
 
 ## 📌 Próximas melhorias
 
-* Adicionar novos projetos
-* Melhorar o design e responsividade
-* Implementar animações
-* Integrar com APIs
-* Migrar para React futuramente
+* Adicionar novos projetos ao portfólio
+* Melhorar responsividade para dispositivos móveis
+* Implementar animações e transições
+* Integrar consumo de APIs externas
+* Migrar o projeto para React
 
 ---
 
@@ -61,23 +115,17 @@ Este é o meu projeto de portfólio pessoal desenvolvido para apresentar minhas 
 
 **Luiz Alberto Huller da Silva**
 
-* GitHub: https://github.com/LuizAlbertoDev
-* LinkedIn: https://linkedin.com/in/luizalbertodev
-* Email: [luizalbertodev@gmail.com](mailto:luizalbertodev@gmail.com)
+📧 Email:
+[luizalbertodev@gmail.com](mailto:luizalbertodev@gmail.com)
+
+🔗 GitHub:
+https://github.com/LuizAlbertoDev
+
+🔗 LinkedIn:
+https://linkedin.com/in/luizalbertodev
 
 ---
 
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins de estudo e portfólio pessoal.
-
----
-
-## 🚀 Tecnologias
-
-![HTML](https://img.shields.io/badge/HTML5-orange)
-![CSS](https://img.shields.io/badge/CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-![Git](https://img.shields.io/badge/Git-red)
-
-
