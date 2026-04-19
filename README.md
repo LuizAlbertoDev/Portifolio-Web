@@ -17,10 +17,6 @@ O projeto foi criado como parte dos meus estudos em desenvolvimento web e contin
 
 ## 📸 Preview do projeto
 
-*(adicione aqui um print do seu site)*
-
-Exemplo:
-
 ![Preview do Portfólio](./assets/img/preview.png)
 
 ---
