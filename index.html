@@ -1,19 +1,19 @@
+```html
 <!DOCTYPE html>
-<html lang="pt/BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
@@ -23,161 +23,284 @@
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/education.css">
 
-    <title>Portifolio Luiz Alberto Huller</title>
+    <title>Portfólio Luiz Alberto Huller</title>
 </head>
 <body>
 
-    <div class="main">
+<div class="main">
 
-        <header class="header">
+<header class="header">
 
-        <img src="assets/img/Foto Luiz.jpeg" class="photo" alt="Foto de Luiz Alberto Huller" width="200px">
+    <img 
+        src="assets/img/Foto Luiz.jpeg"
+        id="profile.photo"
+        class="photo"
+        alt="Foto de Perfil"
+        width="200"
+    >
 
-        <h1 class="title">Olá, eu sou Luiz Alberto Huller !</h1>
+    <h1 class="title">
+        Olá, eu <span id="profile.name">Carregando...</span>
+    </h1>
 
-        
-        <div class="information">
+    <div class="information">
 
-            <p class="trabalho">Developer Frontend Jr.</p>
-            <p class="localizacao">São José - SC</p>
-            <p class="phone">
-                <a href="tel:+5548988472426" target="_blank">(48) 98847-2426</a>
-            </p>
-            <p class="email">
-                <a href="mailto:Luizalbertodev@gmail.com" target="_blank">Luizalbertodev@gmail.com</a>
-            </p>
+        <p class="trabalho">
+            <span id="profile.job">Carregando...</span>
+        </p>
+
+        <p class="localizacao">
+            <span id="profile.location">Carregando...</span>
+        </p>
+
+        <p class="phone">
+            <a id="profile.phone.link" href="#">
+                <span id="profile.phone">Carregando...</span>
+            </a>
+        </p>
+
+        <p class="email">
+            <a id="profile.email.link" href="#">
+                <span id="profile.email">Carregando...</span>
+            </a>
+        </p>
+
+    </div>
+
+</header>
+
+<!-- SKILLS -->
+
+<section class="acordeon">
+
+    <button class="trigger" type="button">
+        Skills
+    </button>
+
+    <div class="content">
+
+        <div class="skills">
+
+            <section class="tools">
+
+                <h3 class="title">
+                    Habilidades Técnicas
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <img src="assets/img/icons/iconCSSBranco.svg" alt="CSS" width="30">
+                    </li>
+
+                    <li>
+                        <img src="assets/img/icons/iconHTMLBranco.svg" alt="HTML" width="30">
+                    </li>
+
+                    <li>
+                        <img src="assets/img/icons/iconJSBranco.svg" alt="JavaScript" width="30">
+                    </li>
+
+                    <li>
+                        <img src="assets/img/icons/iconGithubBranco.svg" alt="Git" width="30">
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section class="personal-skills">
+
+                <h3 class="title">
+                    Habilidades Pessoais
+                </h3>
+
+                <ul>
+
+                    <li>Facilidade com tarefas práticas</li>
+                    <li>Comunicação</li>
+                    <li>Trabalho em Equipe</li>
+                    <li>Resolução de Problemas</li>
+                    <li>Organização</li>
+                    <li>Comprometimento com resultados</li>
+
+                </ul>
+
+            </section>
 
         </div>
 
-        </header>
+    </div>
 
-        <section class="acordeon">
+</section>
 
-            <button class="trigger" type="button">Skills</button>
-            <div class="content">
-                
-                <div class="skills">
+<!-- IDIOMAS -->
 
-                    <section class="tools">
-                        <h3 class="title">Habilidades Técnicas</h3>
-                        <ul>
-                            <li>
-                                <img src="assets/img/icons/icon CSS Branco.svg" alt="Ícone CSS" width="30px" title="CSS">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/iconHTMLBranco.svg" alt="Ícone HTML" width="30px" title="HTML">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/iconJSBranco.svg" alt="Ícone JavaScript" width="30px" title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/iconGithubBranco.svg" alt="Ícone Git" width="30px" title="Git">
-                            </li>
-                        </ul>
-                </section>
+<section class="acordeon">
 
-                <section class="personal-skills">
-                        <h3 class="title">Habilidades Pessoais</h3>
-                        <ul>
-                            <li>Facilidade com tarefas práticas</li>
-                            <li>Comunicação</li>
-                            <li>Trabalho em Equipe</li>
-                            <li>Resolução de Problemas</li>
-                            <li>Organização</li>
-                            <li>Comprometimento com resultados</li>
-                        </ul>
-                </section>
+    <button class="trigger" type="button">
+        Idiomas
+    </button>
 
-                </div>
+    <div class="content">
+
+        <ul class="languages">
+
+            <li>Português</li>
+            <li>Inglês</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- EDUCAÇÃO -->
+
+<section class="acordeon">
+
+    <button class="trigger" type="button">
+        Educação
+    </button>
+
+    <div class="content">
+
+        <section class="certificados">
+
+            <h3 class="title">
+                Minhas conquistas na Dio
+            </h3>
+
+            <ul class="education">
+
+                <li>
+                    <img src="assets/img/icons/iconcss.webp" alt="CSS">
+                </li>
+
+                <li>
+                    <img src="assets/img/icons/iconhtml.webp" alt="HTML">
+                </li>
+
+                <li>
+                    <img src="assets/img/icons/iconjs.webp" alt="JavaScript">
+                </li>
+
+            </ul>
+
+            <div class="formacao">
+
+                <h4 class="title">
+                    Dio.me
+                </h4>
+
+                <span>
+                    Front-end Developer
+                </span>
 
             </div>
-        </section>
 
-        <section class="acordeon">
+            <div class="formacao">
 
-            <button class="trigger" type="button">Idiomas</button>
-            <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
-                </ul>
-            </div>
+                <h4 class="title">
+                    Unisul - Análise e Desenvolvimento de Sistemas
+                </h4>
 
-        </section>
+                <span class="period">
+                    2022 - 2026
+                </span>
 
-        <section class="acordeon">
-
-            <button class="trigger" type="button">Educação</button>
-            <div class="content">
-                <section class="certificados">
-
-                    <h3 class="title">Minhas conquistas na Dio</h3>
-                    <ul class="education"> 
-                        <li><img src="assets/img/icons/iconcss.webp" alt="CSS"></li>
-                        <li><img src="assets/img/icons/iconhtml.webp" alt="HTML"></li>
-                        <li><img src="assets/img/icons/iconjs.webp" alt="JS"></li>
-                    </ul>
-
-                    <div class="formacao">
-                        <h4 class="title">Dio.me</h4> 
-                        <span>Front-end Developer</span>
-                    </div>
-
-                    <div class="formacao">
-                        <h4 class="title">Unisul - Analise e Desenvolvimento de Sistemas</h4>
-                        <span class="period">2022 - 2026</span>
-                    </div>
-                </section>
-            </div>
-
-        </section>
-
-        <section class="acordeon">
-
-            <button class="trigger" type="button">Portfólio</button>
-            <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Criando um App de lembretes</h3>
-                        <a href="#" target="_blank">Ver projeto</a>
-                    </li>
-
-                    <li>
-                        <h3 class="title github">Criando uma Calculadora</h3>
-                        <a href="#" target="_blank">Ver projeto</a>
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-
-        <section class="acordeon">
-
-            <button class="trigger" type="button">Experiência Profissional</button>
-            <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title github">Desenvolvedor Frontend Jr. - Empresa XYZ</h3>
-                        <span class="period">jan/2023 - dez/2023</span>
-                        <p>Responsável por desenvolver interfaces de usuário responsivas e interativas utilizando HTML, CSS e JavaScript. Colaborei com a equipe de design para criar experiências de usuário envolventes e otimizadas para dispositivos móveis.</p>
-                        
-                    </li>
-
-                    <li>
-                        <h3 class="title github">Estagiário de Desenvolvimento Web - Empresa ABC</h3>
-                        <span class="period">jan/2021 - dez/2022</span>
-                        <p>Auxiliei na criação e manutenção de sites utilizando HTML, CSS e JavaScript. Participei de reuniões de equipe para discutir melhorias e novas funcionalidades, além de realizar testes e correções de bugs.</p>
-                        
-                    </li>
-                </ul>
             </div>
 
         </section>
 
     </div>
-    
-    
 
-    <script src="assets/js/acordeon.js"></script>
+</section>
+
+<!-- PORTFÓLIO -->
+
+<section class="acordeon">
+
+    <button class="trigger" type="button">
+        Portfólio
+    </button>
+
+    <div class="content">
+
+        <ul class="portfolio">
+
+            <li>
+
+                <h3 class="title github">
+                    Criando um App de lembretes
+                </h3>
+
+                <a href="#" target="_blank">
+                    Ver projeto
+                </a>
+
+            </li>
+
+            <li>
+
+                <h3 class="title github">
+                    Criando uma Calculadora
+                </h3>
+
+                <a href="#" target="_blank">
+                    Ver projeto
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- EXPERIÊNCIA -->
+
+<section class="acordeon">
+
+    <button class="trigger" type="button">
+        Experiência Profissional
+    </button>
+
+    <div class="content">
+
+        <ul class="experience">
+
+            <li>
+
+                <h3 class="title github">
+                    Desenvolvedor Frontend Jr. - Empresa XYZ
+                </h3>
+
+                <span class="period">
+                    jan/2023 - dez/2023
+                </span>
+
+                <p>
+                    Responsável por desenvolver interfaces responsivas com HTML, CSS e JavaScript.
+                </p>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+</div>
+
+<!-- JS -->
+
+<script src="assets/js/acordeon.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
+```
