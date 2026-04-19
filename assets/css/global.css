@@ -1,0 +1,35 @@
+* { 
+    box-sizing: border-box; 
+    font-family: "open sans", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #020617 0%, #252830 100%);
+    background-attachment: fixed;
+    color: #e2e8f0;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: white;
+    margin: .5rem 0;
+}
+
+h1, h2, h3 {
+    color: white;
+    margin: .5rem 0;
+}
+
+.main {
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: .5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

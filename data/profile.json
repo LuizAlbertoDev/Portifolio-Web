@@ -1,0 +1,67 @@
+{
+  "name": "Luiz A. H. da Silva",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "Desenvolvedor Front-end Júnior",
+  "location": "Santa Catarina - Brasil",
+  "phone": "(48) 98847-2426",
+  "email": "luizalbertodev@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/git.png"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/github.png"
+      }
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Organização",
+      "Aprendizado contínuo",
+      "Responsabilidade",
+      "Comunicação"
+    ]
+  },
+  "languages": [
+    "Português (nativo)",
+    "Inglês (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Portfólio pessoal",
+      "url": "https://github.com/LuizAlbertoDev",
+      "github": true
+    },
+    {
+      "name": "Projeto CRUD de Produtos em JavaScript",
+      "url": "https://github.com/LuizAlbertoDev",
+      "github": true
+    },
+    {
+      "name": "Site de Clínica Médica (Projeto HTML)",
+      "url": "https://github.com/LuizAlbertoDev",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Operador Logístico / Mercado Livre",
+      "period": "2026 - Atual",
+      "description": "Atuação na área de crossdocking, desenvolvendo disciplina, organização e trabalho em equipe em ambiente de alta demanda operacional."
+    }
+  ]
+}
