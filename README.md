@@ -66,3 +66,18 @@ O projeto foi criado como parte dos meus estudos em desenvolvimento web e contin
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins de estudo e portfólio pessoal.
+
+---
+
+## 🚀 Tecnologias
+
+![HTML](https://img.shields.io/badge/HTML5-orange)
+![CSS](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![Git](https://img.shields.io/badge/Git-red)
+
+---
+
+## 🌐 Acesse o projeto
+
+https://luizalbertodev.github.io/Portifolio-Web/
