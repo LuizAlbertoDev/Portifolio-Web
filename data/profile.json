@@ -41,21 +41,31 @@
     "Inglês (básico)"
   ],
   "portfolio": [
-    {
-      "name": "Portfólio pessoal",
-      "url": "https://github.com/LuizAlbertoDev",
-      "github": true
-    },
-    {
-      "name": "Projeto CRUD de Produtos em JavaScript",
-      "url": "https://github.com/LuizAlbertoDev",
-      "github": true
-    },
-    {
-      "name": "Site de Clínica Médica (Projeto HTML)",
-      "url": "https://github.com/LuizAlbertoDev",
-      "github": true
-    }
+  {
+    "name": "Portfólio Web Responsivo",
+    "url": "https://github.com/LuizAlbertoDev/Portifolio-Web",
+    "github": true
+  },
+  {
+    "name": "CRUD de Produtos em JavaScript (LocalStorage)",
+    "url": "https://github.com/LuizAlbertoDev/crud-produtos-js",
+    "github": true
+  },
+  {
+    "name": "Site de Clínica Médica em HTML e CSS",
+    "url": "https://github.com/LuizAlbertoDev/site-clinica-medica",
+    "github": true
+  },
+  {
+    "name": "Gerenciador de Tarefas (To-Do List) com JavaScript",
+    "url": "https://github.com/LuizAlbertoDev/todo-list-js",
+    "github": true
+  },
+  {
+    "name": "Consumo de API de Usuários com Fetch",
+    "url": "https://github.com/LuizAlbertoDev/consumo-api-usuarios",
+    "github": true
+  }
   ],
   "professionalExperience": [
     {

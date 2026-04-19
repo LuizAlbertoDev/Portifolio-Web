@@ -32,11 +32,37 @@ function updateSkills(profileData) {
 
 }
 
+function updateHardSkills(profileData) {
+
+    const hardSkillsList =
+        document.getElementById('profile.skills.hardskills');
+
+    hardSkillsList.innerHTML =
+        profileData.skills.hardSkills
+            .map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`)
+            .join('');
+
+}
+
+function updateLanguages(profileData) {
+
+    const languagesList =
+        document.getElementById('languages');
+
+    languagesList.innerHTML =
+        profileData.languages
+            .map(language => `<li>${language}</li>`)
+            .join('');
+
+}
+
 (async () => {
 
     const profileData = await fetchProfileData();
 
     updateProfileInfo(profileData);
     updateSkills(profileData);
+    updateHardSkills(profileData);
+    updateLanguages(profileData);
 
 })();
