@@ -1,7 +1,7 @@
 # 💼 Portfólio Web - Desenvolvedor Front-end Júnior
 
 🌐 **Acesse o projeto:**
-https://github.com/LuizAlbertoDev/Portifolio-Web/settings/pages
+https://luizalbertodev.github.io/Portifolio-Web/
 
 🔗 **Repositório:**
 https://github.com/LuizAlbertoDev/Portifolio-Web

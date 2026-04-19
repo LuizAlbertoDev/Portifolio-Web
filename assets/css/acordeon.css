@@ -45,7 +45,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/img/icons/iconArrow.svg);
+    background-image: url(../img/icons/iconArrow.svg);
     transition: .25s;
 }
 
