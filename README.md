@@ -1,8 +1,12 @@
-# 💼 Portfólio Web
+# 💼 Portfólio Web - Desenvolvedor Front-end Júnior
 
-Este é o meu projeto de **portfólio pessoal**, desenvolvido com o objetivo de apresentar minhas habilidades em desenvolvimento Front-end, meus projetos e minha evolução na área de programação.
+🌐 **Acesse o projeto:**
+https://SEU-LINK-AQUI
 
-O projeto foi criado como parte dos meus estudos em desenvolvimento web e continua sendo atualizado conforme aprendo novas tecnologias.
+---
+
+Este é o meu projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades em desenvolvimento front-end e meus projetos.
+
 
 ---
 
@@ -76,8 +80,4 @@ Este projeto foi desenvolvido para fins de estudo e portfólio pessoal.
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 ![Git](https://img.shields.io/badge/Git-red)
 
----
 
-## 🌐 Acesse o projeto
-
-https://luizalbertodev.github.io/Portifolio-Web/
