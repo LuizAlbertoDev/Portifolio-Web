@@ -56,6 +56,50 @@ function updateLanguages(profileData) {
 
 }
 
+function updatePortfolio(profileData) {
+
+    const portfolioList =
+        document.getElementById('profile.portfolio');
+    portfolioList.innerHTML =
+        profileData.portfolio
+            .map(project => 
+            `<li>
+
+                <h3 ${project.github ? 'class="github"' : ''} >
+                    ${project.name}
+                </h3>
+
+                <a href="${project.url}" target="_blank">
+                    Ver projeto
+                </a>
+
+            </li>`)
+            .join('');
+}
+
+function updateExperience(profileData) {
+
+    const experienceList =
+        document.getElementById('profile.professionalExperience');
+
+    experienceList.innerHTML =
+        profileData.professionalExperience
+            .map(exp => 
+            `<li>
+                <h3 class="title ${exp.github ? 'github' : ''}">
+                    ${exp.name}
+                </h3>
+                <span class="period">
+                    ${exp.period}
+                </span>
+                <p>
+                    ${exp.description}
+                </p>
+            </li>`)
+            .join('');
+}
+
+
 (async () => {
 
     const profileData = await fetchProfileData();
@@ -64,5 +108,7 @@ function updateLanguages(profileData) {
     updateSkills(profileData);
     updateHardSkills(profileData);
     updateLanguages(profileData);
+    updatePortfolio(profileData);
+    updateExperience(profileData);
 
 })();
