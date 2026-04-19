@@ -68,10 +68,15 @@
   }
   ],
   "professionalExperience": [
-    {
-      "name": "Operador Logístico / Mercado Livre",
-      "period": "2026 - Atual",
-      "description": "Atuação na área de crossdocking, desenvolvendo disciplina, organização e trabalho em equipe em ambiente de alta demanda operacional."
-    }
-  ]
+  {
+    "name": "Desenvolvedor Front-end (Projetos Acadêmicos)",
+    "period": "2025 - Atual",
+    "description": "Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript, incluindo projetos como CRUD de produtos, site responsivo e consumo de APIs. Foco em boas práticas de código e versionamento com Git e GitHub."
+  },
+  {
+    "name": "Operador Logístico / Mercado Livre",
+    "period": "2026 - Atual",
+    "description": "Atuação na operação de crossdocking em ambiente logístico de alta demanda, desenvolvendo organização, disciplina e trabalho em equipe."
+  }
+]
 }
