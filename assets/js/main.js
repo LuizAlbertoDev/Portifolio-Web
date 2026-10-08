@@ -15,6 +15,12 @@ function updateProfileInfo(profileData) {
     document.getElementById('profile.email').innerText =
         profileData.email;
 
+    // Links diretos para contato, sem alterar os dados publicados.
+    document.getElementById('profile.email.link').href =
+        `mailto:${profileData.email}`;
+    document.getElementById('profile.phone.link').href =
+        `tel:+55${String(profileData.phone).replace(/\D/g, '')}`;
+
     document.getElementById('profile.photo').src =
         profileData.photo;
 
@@ -69,7 +75,7 @@ function updatePortfolio(profileData) {
                     ${project.name}
                 </h3>
 
-                <a href="${project.url}" target="_blank">
+                <a href="${project.url}" target="_blank" rel="noopener noreferrer">
                     Ver projeto
                 </a>
 
