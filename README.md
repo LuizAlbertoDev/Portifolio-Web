@@ -1,133 +1,64 @@
-# 💼 Portfólio Web - Desenvolvedor Front-end Júnior
+# Portfólio Web — Luiz Alberto
 
-🌐 **Acesse o projeto:**
-https://luizalbertodev.github.io/Portifolio-Web/
+Portfólio pessoal para apresentar **projetos de estudo, conhecimentos em revisão e trajetória de formação** em Análise e Desenvolvimento de Sistemas.
 
-🔗 **Repositório:**
-https://github.com/LuizAlbertoDev/Portifolio-Web
+**[Abrir portfólio publicado](https://luizalbertodev.github.io/Portifolio-Web/)** · **[GitHub](https://github.com/LuizAlbertoDev)**
 
----
+## Sobre
 
-## 📌 Sobre o projeto
+Projeto frontend desenvolvido com HTML, CSS e JavaScript. O conteúdo principal (apresentação, habilidades, links e experiências) é carregado a partir do arquivo `data/profile.json`.
 
-Este é o meu projeto de **portfólio pessoal**, desenvolvido com o objetivo de apresentar minhas habilidades em desenvolvimento **Front-end**, meus projetos e minha evolução na área de programação.
+Atualmente, meu foco é consolidar JavaScript, Git, SQL e os fundamentos necessários para buscar uma oportunidade de **estágio ou desenvolvimento júnior**.
 
-O projeto foi criado como parte dos meus estudos em desenvolvimento web e continua sendo atualizado conforme aprendo novas tecnologias.
+## Tecnologias
 
----
+- HTML5 e CSS3
+- JavaScript puro
+- Fetch e JSON
+- Git e GitHub
+- Hospedagem via GitHub Pages
 
-## 🚀 Tecnologias utilizadas
+## Conteúdo exibido
 
-![HTML](https://img.shields.io/badge/HTML5-orange)
-![CSS](https://img.shields.io/badge/CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-![DOM](https://img.shields.io/badge/DOM-manipulation-9cf)
-![Git](https://img.shields.io/badge/Git-red)
-![GitHub](https://img.shields.io/badge/GitHub-black)
+- Apresentação e contatos
+- Conhecimentos e habilidades
+- Idiomas e formação
+- Projetos com links para os repositórios
+- Experiências profissionais apresentadas separadamente dos projetos de estudo
 
-- HTML5
-- CSS3
-- JavaScript
-- DOM
-- Git
-- GitHub
+## Estrutura
 
----
-
-## 📸 Preview do projeto
-
-![Preview do Portfólio](./assets/img/preview.png)
-
----
-
-## 📂 Funcionalidades
-
-* Exibição de informações pessoais
-* Lista de habilidades (Hard Skills e Soft Skills)
-* Portfólio de projetos
-* Experiência profissional
-* Consumo de dados via JSON
-* Layout responsivo
-
----
-
-## ▶️ Como executar o projeto
-
-1. Clone o repositório:
-
-git clone https://github.com/LuizAlbertoDev/Portifolio-Web
-
-2. Acesse a pasta do projeto:
-
-cd Portifolio-Web
-
-3. Abra o arquivo:
-
-index.html
-
----
-
-## 🧠 O que eu aprendi com este projeto
-
-* Estruturação de páginas com HTML
-* Estilização com CSS
-* Manipulação de dados com JavaScript
-* Consumo de dados via JSON
-* Organização de código
-* Versionamento com Git e GitHub
-
----
-
-## 📁 Estrutura do projeto
-
-```
+```text
 Portifolio-Web/
-│
+├── index.html
 ├── assets/
 │   ├── css/
-│   │   └── style.css
-│   │
 │   ├── js/
-│   │   └── main.js
-│   │
 │   └── img/
-│       └── preview.png
-│
 ├── data/
 │   └── profile.json
-│
-├── index.html
-│
 └── README.md
 ```
 
----
+## Executar localmente
 
-## 📌 Próximas melhorias
+```bash
+git clone https://github.com/LuizAlbertoDev/Portifolio-Web.git
+cd Portifolio-Web
+```
 
-* Adicionar novos projetos ao portfólio
-* Melhorar responsividade para dispositivos móveis
-* Implementar animações e transições
-* Integrar consumo de APIs externas
-* Migrar o projeto para React
+Sirva a pasta em um servidor HTTP local, por exemplo com `npx serve .`, e abra a URL exibida. O servidor local permite carregar `data/profile.json` com `fetch` sem as restrições de acesso a arquivos locais.
 
----
+## Atualizando o portfólio
 
-## 👨‍💻 Autor
+Edite `data/profile.json` para atualizar os projetos e os dados exibidos no site. Antes de publicar, confira se os links existem, se as tecnologias listadas correspondem aos projetos e se a descrição da experiência distingue claramente emprego de estudos.
 
-**Luiz Alberto Huller da Silva**
+## Próximas melhorias
 
-📧 Email:
-[luizalbertodev@gmail.com](mailto:luizalbertodev@gmail.com)
-
-🔗 GitHub:
-https://github.com/LuizAlbertoDev
-
-🔗 LinkedIn:
-https://linkedin.com/in/luizalbertodev
+- [ ] Revisar o layout responsivo e a acessibilidade.
+- [ ] Melhorar as descrições dos projetos e registrar demonstrações.
+- [ ] Publicar novos projetos desenvolvidos durante a formação.
 
 ---
 
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins de estudo e portfólio pessoal.
+Projeto mantido como registro da evolução nos estudos. [LinkedIn](https://www.linkedin.com/in/luizalbertodev/).
