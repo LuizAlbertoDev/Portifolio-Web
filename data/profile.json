@@ -1,7 +1,7 @@
 {
   "name": "Luiz A. H. da Silva",
   "photo": "assets/img/Foto Luiz.jpeg",
-  "job": "Desenvolvedor Front-end Júnior",
+  "job": "Estudante de ADS | Desenvolvedor Full Stack em formação",
   "location": "Santa Catarina - Brasil",
   "phone": "(48) 98847-2426",
   "email": "luizalbertodev@gmail.com",
@@ -41,42 +41,37 @@
     "Inglês (básico)"
   ],
   "portfolio": [
-  {
-    "name": "Portfólio Web Responsivo",
-    "url": "https://github.com/LuizAlbertoDev/Portifolio-Web",
-    "github": true
-  },
-  {
-    "name": "CRUD de Produtos em JavaScript (LocalStorage)",
-    "url": "https://github.com/LuizAlbertoDev/CRUD-de-Produtos-em-JavaScript",
-    "github": true
-  },
-  {
-    "name": "Site de Clínica Médica em HTML e CSS",
-    "url": "https://github.com/LuizAlbertoDev/site-clinica-medica",
-    "github": true
-  },
-  {
-    "name": "Gerenciador de Tarefas (To-Do List) com JavaScript",
-    "url": "https://github.com/LuizAlbertoDev/todo-list-js",
-    "github": true
-  },
-  {
-    "name": "Consumo de API de Usuários com Fetch",
-    "url": "https://github.com/LuizAlbertoDev/consumo-api-usuarios",
-    "github": true
-  }
+    {
+      "name": "Driver Control — gestão de ganhos e manutenção",
+      "url": "https://github.com/LuizAlbertoDev/driver-control",
+      "github": true
+    },
+    {
+      "name": "AtacadoPro — mapa e controle de produtos",
+      "url": "https://github.com/LuizAlbertoDev/atacadoPro",
+      "github": true
+    },
+    {
+      "name": "CRUD de Produtos em JavaScript",
+      "url": "https://github.com/LuizAlbertoDev/CRUD-de-Produtos-em-JavaScript",
+      "github": true
+    },
+    {
+      "name": "Desafios JavaScript — exercícios de estudo",
+      "url": "https://github.com/LuizAlbertoDev/Desafios-Javascript",
+      "github": true
+    },
+    {
+      "name": "Desafios SQL — exercícios de estudo",
+      "url": "https://github.com/LuizAlbertoDev/Desafios-SQL",
+      "github": true
+    }
   ],
   "professionalExperience": [
-  {
-    "name": "Desenvolvedor Front-end (Projetos Acadêmicos)",
-    "period": "2025 - Atual",
-    "description": "Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript, incluindo projetos como CRUD de produtos, site responsivo e consumo de APIs. Foco em boas práticas de código e versionamento com Git e GitHub."
-  },
-  {
-    "name": "Operador Logístico / Mercado Livre",
-    "period": "2026 - Atual",
-    "description": "Atuação na operação de crossdocking em ambiente logístico de alta demanda, desenvolvendo organização, disciplina e trabalho em equipe."
-  }
-]
+    {
+      "name": "Operador Logístico / Mercado Livre",
+      "period": "2026 - Atual",
+      "description": "Atuação na operação de crossdocking em ambiente logístico de alta demanda, desenvolvendo organização, disciplina e trabalho em equipe."
+    }
+  ]
 }
